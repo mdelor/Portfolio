@@ -7,8 +7,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(74,48,33);
-    background: radial-gradient(circle, rgba(74,48,33,1) 10%, rgba(123,93,69,1) 80%, rgba(192,168,134,1) 100%); 
+    background: rgb(74, 48, 33);
+    background: radial-gradient(circle, rgba(74, 48, 33, 1) 10%, rgba(123, 93, 69, 1) 80%, rgba(192, 168, 134, 1) 100%);
 }
 
 /* end page properties */
@@ -18,7 +18,7 @@ body {
     background: #fff;
 }
 
-.bannertop  {
+.bannertop {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +29,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
 }
 
 .searchbar {
@@ -45,9 +50,10 @@ body {
 }
 
 
-.iconshead i{
+.iconshead i {
     font-size: 1.4em;
     padding: 0 10px;
+    cursor: pointer;
 }
 
 .headnav {
@@ -57,19 +63,30 @@ body {
     margin-left: 20px;
 }
 
+.headnav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.headnav a:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
 
 /* end header properties */
 
 /* main properties */
 .picture {
     width: 80%;
-    margin: 0  auto;
+    margin: 0 auto;
     aspect-ratio: 1.778;
     background-image: url(../photos/Furnituremain.jpg);
     background-position: center center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: baseline;
     align-items: center;
 }
 
@@ -77,11 +94,18 @@ body {
     text-align: center;
     font-size: 4em;
     width: 35%;
-    margin: 0;
-    padding-bottom: 5%;
     font-weight: 100;
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
+}
+
+
+.flexpics {
+    display: flex;
+    justify-content: space-around;
+}
+.flexpics img {
+    width: 30%;
 }
 
 /* end main properties */
