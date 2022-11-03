@@ -1,0 +1,197 @@
+/* page properties */
+html {
+    --headc: #139cab;
+    --evaneos: #33706a;
+    --mainc: #005c56;
+    --checkc: #12b886;
+    font-size: 16px;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* end page properties */
+
+/* header properties */
+.headbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+}
+
+.headbar1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--headc);
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0;
+}
+
+.headbar1 div {
+    display: flex;
+    align-items: baseline;
+}
+
+.headbar1 p {
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.headbar2 {
+    display: flex;
+    align-items: center;
+}
+
+.headbar2 p {
+    margin: 0 8px;
+}
+
+.headbarevaneos {
+    display: flex;
+    align-items: center;
+}
+
+.not {
+    font-size: 1rem;
+    font-family: cursive;
+    color: var(--evaneos);
+}
+
+.evaneos {
+    height: 1.3rem;
+    margin-right: 5px;
+}
+
+.headbar3 {
+    display: flex;
+    align-items: center;
+}
+
+.headbar3 div {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.headbar3 p {
+    margin: 0 18px;
+}
+
+.headbar3 p i {
+    font-size: 1.15em;
+}
+
+/*end header properties */
+
+/* video properties */
+.videohead video {
+    position: relative;
+    background: url(../photos/cover-clouds.jpg);
+    z-index: -1;
+    width: 100%;
+    margin-top: -300px;
+    margin-bottom: -200px;
+}
+
+.videocover {
+    color: #fff;
+    width: 700px;
+    position: absolute;
+    bottom: 250px;
+    left: 18.5%;
+    font-weight: 900;
+    font-size: 1.35rem;
+}
+
+
+
+.containerbottom {
+    background-color: var(--mainc);
+}
+
+.bottomvideo {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.bottomvideo div:first-of-type {
+    padding-left: 0;
+}
+
+.bottomvideo div {
+    padding: 0 20px;
+}
+
+.bottomvideo h2 {
+    margin-top: 5px;
+}
+
+/* end video properties */
+
+/* main */
+.blocmain {
+    width: 1200px;
+    margin: auto;
+}
+
+.blocmain h3 {
+    font-size: 1.7em;
+
+}
+
+.checklist {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.checklist li {
+    padding: 5px 0;
+}
+
+.checklist li i {
+    color: var(--checkc);
+}
+/* fin du main */
+
+/*debut footer */
+ footer {
+    background-color: var(--mainc);
+ }
+
+ .retourn {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+footer a {
+    text-decoration: none;
+    color:#fff;
+}
+
+footer a:hover {
+    color:var(--mainc);
+    background: #fff;
+}
+
+.legal  {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    color:#fff;
+}
+/* fin footer */
