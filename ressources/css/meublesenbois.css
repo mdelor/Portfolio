@@ -1,0 +1,144 @@
+/* page properties */
+html {
+    --headc: #d5bca5;
+    --mainc: #19191b;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(74, 48, 33);
+    background: radial-gradient(circle, rgba(74, 48, 33, 1) 10%, rgba(123, 93, 69, 1) 80%, rgba(192, 168, 134, 1) 100%);
+}
+
+/* end page properties */
+
+/* header properties */
+.headbar {
+    background: #fff;
+}
+
+.bannertop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--headc);
+}
+
+.mainhead {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+.searchbar {
+    width: 30%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.searchbar input {
+    width: 90%;
+    height: fit-content;
+    border: none;
+    outline: none;
+}
+
+
+.iconshead i {
+    font-size: 1.4em;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.headnav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.headnav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.headnav a:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+/* end header properties */
+
+/* main properties */
+.picture {
+    width: 80%;
+    margin: 0 auto;
+    aspect-ratio: 1.778;
+    background-image: url(../photos/Furnituremain.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.picture h2 {
+    text-align: center;
+    font-size: 4em;
+    width: 35%;
+    font-weight: 100;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.flexpics {
+    display: flex;
+    justify-content: space-around;
+}
+.flexpics img {
+    width: 30%;
+}
+
+/* end main properties */
+
+/*debut footer */
+footer {
+    background-color: var(--mainc);
+}
+
+.retourn {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: var(--mainc);
+    background: #fff;
+}
+
+.legal {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    color: #fff;
+}
+
+/* fin footer */
