@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +17,7 @@
     <!--Intégration de ma feuille CSS-->
     <link rel="stylesheet" href="ressources/css/main.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -28,9 +30,9 @@
                 </button>
                 <div class="container-md">
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav container-lg me-auto mb-2 mb-md-0 justify-content-between">
                             <li class="navbar-item">
-                                <a class="nav-link" href="#carouselGalerie">Galerie</a>
+                                <a class="nav-link" href="#galerie">Galerie</a>
                             </li>
                             <li class="navbar-item">
                                 <a class="nav-link" href="#competences">Compétences</a>
@@ -41,7 +43,7 @@
                             <li class="navbar-item">
                                 <a class="nav-link" href="#formation">Parcours d'Études</a>
                             </li>
-                            <li class="nav-item dropdown active">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Contact
@@ -66,34 +68,39 @@
                     <h1>Maxime Delory</h1>
                 </div>
                 <div class="col-8">
-                    <p class="text-center">Je suis <strong>Intégrateur Front-End</strong>, découvrez-moi à travers ce
+                    <p class="text-center">Passionné de code, je suis <strong>Intégrateur Front-End</strong>, découvrez-moi à travers ce
                         Portfolio!</p>
                 </div>
             </div>
         </section>
-        <section id="carouselGalerie" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x900/000099.png"
-                            class="d-block w-100" alt="..."></a>
+        <section>
+            <h2 class="text-center" id="galerie">Galerie</h2>
+            <div id="carouselGalerie" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x900/000099.png"
+                                class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x900/004400.png"
+                                class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x900/990000.png"
+                                class="d-block w-100" alt="..."></a>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x900/004400.png"
-                            class="d-block w-100" alt="..."></a>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x900/990000.png"
-                            class="d-block w-100" alt="..."></a>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGalerie"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGalerie"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGalerie" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselGalerie" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </section>
         <section>
             <div class="row" id="competences">
@@ -103,7 +110,7 @@
                 <div class="col-lg-8">
                     <h3 class="text-center">Hard Skills</h3>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3 offset-lg-1">
                     <h3 class="text-center d-none d-lg-block">Soft Skills</h3>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
@@ -202,9 +209,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
                     <h3 class="text-center d-lg-none">Soft Skills</h3>
-                    <ul class="list-group align-content-center">
+                    <ul class="list-group">
                         <li class="list-group-item text-center">
                             Créativité
                         </li>
@@ -239,14 +246,21 @@
             </div>
         </section>
     </main>
-    <footer>
-        <section class="bg-dark">
-                <div class="row">*
-                    <div class="col-4">
-                    </div>
-                    <div class="col-4">
-                    </div>
-                    <div class="col-4">
+
+    <footer class="text-bg-dark bg-dark">
+        <section>
+            <div class="row">
+                <div class="col-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptatum culpa, inventore odit
+                    repellendus adipisci delectus hic dicta et eos tempora. Ipsa sint inventore suscipit.
+                </div>
+                <div class="col-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptatum culpa, inventore odit
+                    repellendus adipisci delectus hic dicta et eos tempora. Ipsa sint inventore suscipit.
+                </div>
+                <div class="col-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptatum culpa, inventore odit
+                    repellendus adipisci delectus hic dicta et eos tempora. Ipsa sint inventore suscipit.
                 </div>
             </div>
         </section>
@@ -257,3 +271,5 @@
     <!--Mes scripts JS-->
     <script src="ressources/js/main.js"></script>
 </body>
+
+</html>
