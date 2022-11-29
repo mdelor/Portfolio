@@ -1,0 +1,16 @@
+:root {
+    --primary-color:#000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+main section:first-of-type p{
+    margin: 0;
+} 
