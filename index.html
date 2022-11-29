@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="ressources/photos/logo.webp" height="30px" alt="Le logo">
-                    Maxime Delory</a>
+                    Portfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,10 +35,13 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav">
                             <li class="navbar-item">
+                                <a class="nav-link" href="#carouselGalerie">Galerie</a>
+                            </li>
+                            <li class="navbar-item">
                                 <a class="nav-link" href="#competences">Compétences</a>
                             </li>
                             <li class="navbar-item">
-                                <a class="nav-link" href="#experiences">Expériences Professionelles</a>
+                                <a class="nav-link" href="#experiences">Expériences Professionnelles</a>
                             </li>
                             <li class="navbar-item">
                                 <a class="nav-link" href="#formation">Parcours d'Études</a>
@@ -49,10 +52,10 @@
                                     Contact
                                 </a>
                                 <address class="dropdown-menu">
-                                    <a class="dropdown-item"
-                                        href="mailto:delory.maxime@free.fr">delory.maxime@free.fr</a>
-                                    <a class="dropdown-item" href="tel:+33770952509">07 70 95 25 09</a>
-                                    <p class="dropdown-item">63 rue François Peissel 69300 Caluire</p>
+                                    <a class="dropdown-item" href="mailto:delory.maxime@free.fr">Email :
+                                        delory.maxime@free.fr</a>
+                                    <a class="dropdown-item" href="tel:+33770952509">Tel : 07 70 95 25 09</a>
+                                    <p class="dropdown-item">Adresse : 63 rue François Peissel<br>69300 Caluire</p>
                                 </address>
                             </li>
                         </ul>
@@ -62,46 +65,210 @@
         </nav>
     </header>
     <main>
-        <section class="row align-items-center">
-            <div class="col-3 offset-1">
-                <h1>Maxime Delory</h1>
-            </div>
-            <div class="col-8">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius, sapiente repellat quos et
-                    inventore?</p>
+        <section>
+            <div class="row align-items-center">
+                <div class="col-3 offset-1">
+                    <h1>Maxime Delory</h1>
+                </div>
+                <div class="col-8">
+                    <p class="text-center">Je suis <strong>Intégrateur Front-End</strong>, découvrez-moi à travers ce Portfolio!</p>
+                </div>
             </div>
         </section>
 
-        <section id="carouselPortfolio" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <section id="carouselGalerie" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x980/000099.png"
+                    <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x900/000099.png"
                             class="d-block w-100" alt="..."></a>
                 </div>
                 <div class="carousel-item">
-                    <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x980/004400.png"
+                    <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x900/004400.png"
                             class="d-block w-100" alt="..."></a>
                 </div>
                 <div class="carousel-item">
-                    <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x980/990000.png"
+                    <a href="https://placeholder.com/"><img src="https://via.placeholder.com/1920x900/990000.png"
                             class="d-block w-100" alt="..."></a>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGalerie" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselGalerie" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </section>
+
+
+        <section>
+            <div class="row" id="competences">
+                <div class="col-12">
+                    <h2 class="text-center">Compétences</h2>
+                </div>
+                <div class="col-lg-8">
+                    <h3 class="text-center">Hard Skills</h3>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="text-center d-none d-lg-block">Soft Skills</h3>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p>JavaScript</p>
+                                <p>75%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:75%" role="progressbar" aria-label="JavaScript"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p>HTML</p>
+                                <p>80%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" style="width:80%" role="progressbar"
+                                    aria-label="HTML" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p>CSS</p>
+                                <p>80%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-secondary" style="width:80%" role="progressbar"
+                                    aria-label="CSS" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p>Bootstrap</p>
+                                <p>75%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" style="width:75%" role="progressbar"
+                                    aria-label="Bootstrap" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p>Angular</p>
+                                <p>50%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" style="width:50%" role="progressbar"
+                                    aria-label="Angular" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p>JQuery</p>
+                                <p>50%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:50%" role="progressbar"
+                                    aria-label="JQuery" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p>CMS Wordpress</p>
+                                <p>50%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" style="width:50%" role="progressbar"
+                                    aria-label="CMS Wordpress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p>Photoshop</p>
+                                <p>80%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" style="width:80%" role="progressbar"
+                                    aria-label="Photoshop" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="text-center d-lg-none">Soft Skills</h3>
+                    <ul class="list-group align-content-center">
+                        <li class="list-group-item text-center">
+                            Créativité
+                        </li>
+                        <li class="list-group-item text-center">
+                            Autonomie
+                        </li>
+                        <li class="list-group-item text-center">
+                            Rigueur
+                        </li>
+                        <li class="list-group-item text-center">
+                            Capacité d'analyse
+                        </li>
+                        <li class="list-group-item text-center">
+                            Ouverture d'esprit
+                        </li>
+                        <li class="list-group-item text-center">
+                            Ponctualité
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiences">
+            <div class="col-12">
+                <h2 class="text-center">Expériences Professionnelles</h2>
+            </div>
+
+
+        </section>
+        <section id="formation">
+            <div class="col-12">
+                <h2 class="text-center">Parcours d'Études</h2>
+            </div>
+
+
+        </section>
+
     </main>
 
+    <footer>
+        <section class="bg-dark"> 
+            <div class="row">*
+                <div class="col-4">
 
+                </div>
+                <div class="col-4">
 
+                </div>
+                <div class="col-4">
+
+                </div>
+            </div>
+        </section>
+    
+    </footer>
 
     <!--Intégration Scripts JS-->
     <!--Script Bootstrap-->
