@@ -3,7 +3,6 @@
     src: url(../font/panpizza.woff2);
 }
 
-
 :root {
     --primary-color: #000000;
 }
@@ -14,15 +13,6 @@ body {
 
 a {
     text-decoration: none;
-}
-
-p {
-    width: fit-content;
-}
-
-h1 {
-    font-family: "PanPizza", serif;
-    font-size: 4em;
 }
 
 .navbar-brand {
@@ -39,25 +29,42 @@ nav li>a {
     font-weight: bolder;
 }
 
-main section:first-of-type p {
-    margin: 0;
-    font-size: 1.3em;
+
+main p {
+    width: fit-content;
 }
 
-
-
+h1 {
+    font-family: "PanPizza", serif;
+    font-size: 4em;
+}
 
 main section {
     width: 90%;
     margin: 50px auto;
 }
 
-footer section {
-    width: 95%;
-    margin: auto;
+main section:first-of-type p {
+    margin: 0;
+    font-size: 1.3em;
 }
+
 
 #competences>div:last-of-type li {
     text-align: center;
     height: 36px;
+}
+
+footer section {
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+footer a {
+    font-family: "PanPizza", serif;
+    font-size: 2em;
 }
