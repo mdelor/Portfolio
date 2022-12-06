@@ -1,8 +1,10 @@
+/* Import Police */
 @font-face {
     font-family: "PanPizza";
     src: url(../font/panpizza.woff2);
 }
 
+/*Propriétés page */
 :root {
     --primary-color: #000000;
 }
@@ -14,6 +16,10 @@ body {
 a {
     text-decoration: none;
 }
+
+/*Fin propriétés page */
+
+/*Navbar */
 
 .navbar-brand {
     font-family: "PanPizza", serif;
@@ -29,6 +35,9 @@ nav li>a {
     font-weight: bolder;
 }
 
+/* Fin navbar */
+
+/* Proriétés main page */
 
 main p {
     width: fit-content;
@@ -49,12 +58,39 @@ main section:first-of-type p {
     font-size: 1.3em;
 }
 
+/*Fin proriétés main page */
+
+/*Compétences */
 
 #competences>div:last-of-type li {
     text-align: center;
     height: 36px;
 }
 
+/*Fin compétences */
+
+/*Experiences pro */
+
+#experiences p {
+    font-size: 1.3em;
+}
+
+#experiences li {
+    font-size: 1em;
+}
+
+.hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 1px;
+    background-color: #000000;
+}
+
+/*Fin experiences pro */
+
+/*Pied de page */
 footer {
     margin: 0;
     position: sticky;
@@ -71,3 +107,5 @@ footer a {
     font-family: "PanPizza", serif;
     font-size: 2em;
 }
+
+/*Fin pied de page */
